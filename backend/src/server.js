@@ -23,7 +23,7 @@ app.use(cookieParser());
 
 // endpoints
 app.use("/api/auth", authRoutes),
-    app.use("/api/message", messageRoutes)
+    app.use("/api/messages", messageRoutes)
 
 // make ready for deployment
 if (ENV.NODE_ENV === "production") {
