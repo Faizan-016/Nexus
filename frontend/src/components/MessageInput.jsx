@@ -49,6 +49,8 @@ function MessageInput() {
       {imagePreview && (
         <div className="max-w-3xl mx-auto mb-3 flex items-center">
           <div className="relative">
+
+            {/* //we use this to preview the image when the user is select from the device */}
             <img
               src={imagePreview}
               alt="Preview"
